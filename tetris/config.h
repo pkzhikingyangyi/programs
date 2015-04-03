@@ -1,0 +1,4 @@
+#include INIT_WINDOW_X_START 0
+#include INIT_WINDOW_Y_START 0 
+#include INIT_WINDOW_X_END 800 
+#include INIT_WINDOW_Y_END 600
