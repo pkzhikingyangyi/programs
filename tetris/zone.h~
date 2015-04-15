@@ -1,0 +1,8 @@
+virtual class CZone
+{
+public:
+  void Paint();
+private:
+  int m_width;
+  int m_height;
+};
