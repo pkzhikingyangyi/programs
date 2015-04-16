@@ -1,6 +1,10 @@
 /******** wrote by yangyi March 11, 2015 ************/
 
+#include <GL/gl.h>
+#include <GL/glu.h>
 #include <GL/glut.h>
+#include <GL/glext.h>
+#include <sys/time.h>
 #include "config.h"
 
 

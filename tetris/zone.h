@@ -1,7 +1,7 @@
-virtual class CZone
+class CZone
 {
 public:
-  void Paint();
+  virtual void Paint();
 private:
   int m_width;
   int m_height;
@@ -29,7 +29,7 @@ private:
   SCoor m_centerXY;
 };
 
-class CGrid : private CZone
+class CGrid : public CZone
 {
 private:
   bool m_occupied;
